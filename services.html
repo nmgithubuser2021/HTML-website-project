@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Project Web Page 4 </title> <!--This is Final Project page 4 Nicholas Mueller (12/11/2018)--> 
+<meta name="viewport"				
+content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href=FinalProjectCss.css>				<!--This is the link to the final project css also embedded css is used -->
+<style>
+h1 {float:center; display:block; background-color: black; color:white; text-align:center; }
+label {float:left; display:block;					
+text-align:right; font-weight:bold; width:10em;
+padding-right:1em;}
+input,textarea {display:block; margin-bottom: 2em;}
+#mySubmit {margin-left:12em;}							
+#myReset  {margin-left:12em;}						
+</style>
+</head>
+<body>
+<div id="wrapper">
+<nav>
+<ul>
+<li><a href="index.html">Home</a> </li> 
+<br>
+<li><a href="description.html">Description</a> </li>
+<br>
+<li><a href="products.html">Products</a> </li>
+<br>
+<li><a href="services.html">Services/Contact</a></li>
+<br>
+<li><a href="about.html">About Me</a></li>
+</ul> 
+</nav>
+<h1> Contact Info and Services </h1>
+<br>
+<br>
+<br>
+<fieldset>																		<!--This is where I create the form element and controls along with the legend-->
+<legend><strong>Contact Info Form</strong> </legend>   
+<br>
+<form name="contact" method="post" id="contact" action= "nmuell2013@gmail.com">		<!--This is the method used to send the form to my email form name "Contact Info Form"-->
+<input type="hidden" name="sendto" id="sendto" value="nmuell2013@gmail">
+<label for="contact">First Name:</label>
+<input type="text" name="contact" id="contact"										 
+required="required" placeholder= "Please enter First Name "> 
+<label for="contact">Middle Name:</label>
+<input type="text" name="contact" id="contact"										 
+required="required" placeholder= "Please enter Middle Name "> 
+<label for="contact">Last Name:</label>
+<input type="text" name="contact" id="contact"										 
+required="required" placeholder= "Please enter Last Name "> 
+<label for="contact">Select a Date:</label>
+<input type="date" name="contact" id="contact"> 
+<label for="contact">Email:</label>										
+<input type="email" name="contact" 								
+required="required" placeholder= "Please enter email address">
+<input type="submit" value="Send Now" id="mySubmit">					
+<input type="reset" value="Reset" id="myReset" 
+</fieldset>
+</form>
+<footer> 
+Copyright &copy; 2018 Final Project Store <br>
+<a href="mailto:nmuell2013@gmail.com"> nmuell2013@gmail.com </a>
+</footer>
+</div>
+
+</body>
+</html>

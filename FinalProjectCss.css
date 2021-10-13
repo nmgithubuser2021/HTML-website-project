@@ -1,0 +1,40 @@
+#wrapper {margin-left: auto; /* I used this wrapper to give a border to page content*/
+margin-right: auto;
+width: 80%; min-width: 1200px; max-width: 1480px;
+background-color:#CCCCCC; 
+color: #3F2860;  
+font-family: Arial; }
+body{background-color:Grey;}
+h1 {background-color:Black;color:white; text-align: center;}
+h2 {background-color:Silver; text-align:center;}
+nav{ float:left; background-color: #CCCCCC; color:black; font-weight:bold;  }
+nav ul { list-style-type: none; 
+margin-top: 7em;}
+a { text-decoration: none;}  
+p { text-align:center;background-color:#CCCCCC; height:600px;}
+ img {float:center;}
+footer {text-align:center;border: 1px solid; background-color:Silver  }
+dl {text-align:center}
+ul {text-align:center; list-style-type:none}
+@media only screen and (max-width: 1024px) {			/*The Tablet CSS I configure here*/ 
+	body {margin:0em; padding:0em;}
+#wrapper {width:100%; min-width:0px; margin:0em;padding:0em;}
+header {padding-top:1px;}
+h1 {padding-top: 1px;}
+nav {float:none; width:auto; padding-left: 2em;}
+nav a {padding:0.2em; margin-left:0.3em; float:left; width: 23%;}
+main {padding-top:2.5em; padding-bottom: 2.5em; padding-left:1em; padding-right:1em;margin:0em;font-size:90%; clear:both;}
+h2,h3,p,dl {padding-left:2em;padding-right:2em;}
+main ul {margin-left:2em;}
+.floatleft {margin-left:2em; margin-bottom: 1em;}
+.clear {padding-left:2em}
+}
+@media only all and (max-width: 768px) {  										/*Mobile CSS is configured Here */
+h1  {font-size:2em; padding-top: 0.25em; padding-left: 1.5em; width:85%;
+text-align:center;}
+nav a {padding:0.5em; width:45%; float:left; min-width:6em; margin-left:0.5em;}
+floatleft { float:none; display:none; }
+#hero {display:none;}
+footer {padding: 0.5em; margin:0;}
+#mobile {display: inline; }
+#desktop {display:none; }
